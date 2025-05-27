@@ -1,0 +1,81 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', 'Georgia', serif;
+  background-color: #f9f4ef;
+  padding: 40px 20px;
+  color: #3b2d0a;
+  line-height: 1.6;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.subtitulo {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #705430;
+}
+
+.seccion {
+  margin: 40px auto;
+  max-width: 700px;
+  background-color: #fffdf8;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.seccion:hover {
+  transform: translateY(-5px);
+}
+
+.titulo-seccion {
+  background-color: #d9c6a3;
+  padding: 10px 18px;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #3b2d0a;
+}
+
+.contenido {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .seccion {
+    padding: 15px 18px;
+  }
+
+  .titulo h1 {
+    font-size: 1.8rem;
+  }
+
+  .titulo-seccion {
+    font-size: 1.1em;
+  }
+
+  .contenido {
+    font-size: 0.95rem;
+  }
+}
